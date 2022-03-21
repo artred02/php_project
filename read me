@@ -1,0 +1,17 @@
+This is php project,
+
+Le but était de créer un site qui permet d'acheter des pièces détachées d'ordinateurs,
+avec une gestion des données client,
+il y a donc la possibilté de créer un compte mais aussi d'ajouter une carte banquaire.
+Il est possible de regarder ce qui est en magasin dans l'onglet shop sans avoir de compte.
+
+
+
+Le fichier se situant dans le dossier core nommé Database.php contient les fonctions qui sont utilisées dans le reste du code.
+La fonction la plus utilisée est prepare_and_execute, qui permet de préparer et d'exécuter les requêtes sql avec plus de facilité.
+Ce fichier avait déjà été utilisé pour un autre site, je l'ai réutilisé mais il ne vient pas uniquement de moi.
+Il sert aussi à renvoyer les erreurs qui sont générées par le sql.
+
+Pour mettre en place la base de donnée il faut importer le fichier en .sql dans 'php my admin',
+avec pour utilisateur root, sans mot de passe et avec pour serveur MySQL.
+
